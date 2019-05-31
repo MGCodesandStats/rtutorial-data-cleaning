@@ -35,7 +35,7 @@ mergeinfo<-merge(mydata[, c("ID", "Sales")],mydata2[, c("ID", "Age", "Country")]
 
 Upon doing this, we see that a new dataset is formed in R joining our chosen variables:
 
-![image-1](image-1.png)
+![image1](image1.png)
 
 **3. Using as.date to format dates and calculate duration**
 
@@ -57,7 +57,7 @@ updateddataframe=data.frame(ID,Sales,Date,durationasdouble)
 updateddataframe
 ```
 
-![image-2](image-2.png)
+![image2](image2.png)
  
 **4. Using as.POSIXct and format to calculate differences between seconds**
 
@@ -141,8 +141,6 @@ DT[ , lapply(.SD, sum), by = "names"]
 **8. Calculate lags using the diff() function**
 
 When it comes to doing time series analysis, often times it is necessary to calculate lags for a specific variable. To do this in R, we use the diff() function.
-
-1. Create matrix
 
 For the purposes of this example, we create a matrix with price data for the column names, along with years as our row names:
  
