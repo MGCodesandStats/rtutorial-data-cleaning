@@ -6,8 +6,8 @@ One of the big issues when it comes to working with data in any context is the i
 
 For examples 1-7, we have two datasets:
 
-**sales:** This file contains the variables Date, ID (which is Product ID), and Sales. We load this into R under the name mydata.
-**customers:** This file contains the variables ID, Age, and Country. We load this into R under the name mydata2.
+- **sales:** This file contains the variables Date, ID (which is Product ID), and Sales. We load this into R under the name mydata.
+- **customers:** This file contains the variables ID, Age, and Country. We load this into R under the name mydata2.
 
 The following are examples of popular techniques employed in R to clean a dataset, along with how to format variables effectively to facilitate analysis. The below functions work particularly well with panel datasets, where we have a mixture of cross-sectional and time series data.
 
@@ -35,7 +35,7 @@ mergeinfo<-merge(mydata[, c("ID", "Sales")],mydata2[, c("ID", "Age", "Country")]
 
 Upon doing this, we see that a new dataset is formed in R joining our chosen variables:
 
-data cleaning and merging1
+![image-1](image-1.png)
 
 **3. Using as.date to format dates and calculate duration**
 
@@ -57,7 +57,7 @@ updateddataframe=data.frame(ID,Sales,Date,durationasdouble)
 updateddataframe
 ```
 
-data cleaning and merging 2
+![image-2](image-2.png)
  
 **4. Using as.POSIXct and format to calculate differences between seconds**
 
@@ -114,7 +114,7 @@ minutesspent=as.numeric(minutesspentframe)
 
 Let us suppose that we have created the following table as below, and want to obtain the sum of web visits and minutes spent on a website in any particular period:
 
-nametable
+![nametable](nametable.png)
 
 In this instance, we can replicate the SUMIF function in Excel (where the values associated with a specific identifier are summed up) by using the aggregate function in R. This can be done as follows (where raw_table is the table specified as above):
 
@@ -125,7 +125,7 @@ sumif_table
 
 Thus, the values associated with identifiers (in this case, names) are summed up as follows:
 
-sumiftable
+![sumiftable](sumiftable.png)
 
 As per the examples at Stack Overflow, the plyr and data.table libraries can also be used to accomplish the same result as follows:
 
