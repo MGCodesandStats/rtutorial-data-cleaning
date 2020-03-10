@@ -1,8 +1,10 @@
 [Home](https://mgcodesandstats.github.io/) |
-[Portfolio](https://mgcodesandstats.github.io/portfolio/) |
+[Medium Portfolio](https://medium.com/@firstclassanalyticsmg) |
+[LinkedIn](https://www.linkedin.com/in/michaeljgrogan/) |
+[GitHub](https://github.com/mgcodesandstats) |
+[Speaking Engagements](https://mgcodesandstats.github.io/speaking-engagements/) |
 [Terms and Conditions](https://mgcodesandstats.github.io/terms/) |
-[E-mail me](mailto:contact@michaeljgrogan.com) |
-[LinkedIn](https://www.linkedin.com/in/michaeljgrogan/)
+[E-mail me](mailto:michael@michael-grogan.com)
 
 # Data Cleaning, Merging, and Wrangling in R
 
