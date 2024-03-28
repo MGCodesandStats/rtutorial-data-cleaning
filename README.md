@@ -1,11 +1,3 @@
-[Home](https://mgcodesandstats.github.io/) |
-[Portfolio](https://mgcodesandstats.github.io/articles) |
-[GitHub](https://github.com/mgcodesandstats) |
-[LinkedIn](https://www.linkedin.com/in/michaeljgrogan/) |
-[Stack Overflow](https://stats.stackexchange.com/users/137066/michael-grogan) |
-[Terms](https://mgcodesandstats.github.io/terms/) |
-[E-mail](mailto:contact@michael-grogan.com)
-
 # Data Cleaning, Merging, and Wrangling in R
 
 One of the big issues when it comes to working with data in any context is the issue of data cleaning and merging of datasets, since it is often the case that you will find yourself having to collate data across multiple files, and will need to rely on R to carry out functions that you would normally carry out using commands like VLOOKUP in Excel.
